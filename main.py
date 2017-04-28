@@ -47,8 +47,8 @@ class Main:
             return
 
         # Trade stocks.
-        trading = Trading(logs_to_cloud=LOGS_TO_CLOUD)
-        trading.make_trades(companies)
+        #trading = Trading(logs_to_cloud=LOGS_TO_CLOUD)
+        #trading.make_trades(companies)
 
         # Tweet about it.
         twitter = Twitter(logs_to_cloud=LOGS_TO_CLOUD)
