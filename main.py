@@ -109,6 +109,8 @@ class Main:
             # Increment the number of tries for the next error.
             tries += 1
 
+print("starting process")
+print("starting process21321")
 
 if __name__ == "__main__":
     print("starting process")
