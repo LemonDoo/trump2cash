@@ -3,7 +3,6 @@
 
 from datetime import datetime
 from time import sleep
-
 from analysis import Analysis
 from logs import Logs
 from trading import Trading
@@ -109,9 +108,6 @@ class Main:
             # Increment the number of tries for the next error.
             tries += 1
 
-print("starting process")
-print("starting process21321")
 
 if __name__ == "__main__":
-    print("starting process")
     Main().run()
